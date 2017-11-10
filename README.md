@@ -4,7 +4,7 @@ This is a description for my app "Icarus Watch", which can be found in the [Goog
 
 ![Screenshot of the clock widget](https://thrakbad.github.io/feature.png)
 
-It is a custom widget for Android devices solely created for the Sci-Fi LARP [ICARUS](http://www.grv.it/icarus/) by [Terre Spezzate](http://www.grv.it/en). Players bringing their Android devices to the game can use this widget to see the time in the Icarus station 14-hour system instead of the 24h earth system.
+It is a custom widget for Android devices solely created for the Sci-Fi LARP [ICARUS](http://www.grv.it/icarus/) by [Terre Spezzate](http://www.grv.it/en). Players bringing their Android devices to the game can use this widget to see the time in the Icarus station 14-hour system instead of the 24h earth system. The clock is running on the Icarus system, so that it will hit D15 4:00 when the game starts on Friday the 10th/17th at 22h.
 
 ## Instructions
 
@@ -16,11 +16,21 @@ It is a custom widget for Android devices solely created for the Sci-Fi LARP [IC
 
 ## Functions
 
+If you would like any cool features, I will still have time to add a few small things. Please contact me (see below) if you have a cool idea.
+
 With the clock you can
-* customize the colours of the clock
+* fully customize the colours of the clock
+* select your shift and the clock will tell you when it is time to sleep
+* customize the sleep schedule or leave it according to the calendar in the design document
+* apply an offset to the station time, in case the game starts early or late
 
 ## Troubleshooting
-
 I basically put this together in a few hours, so there is a chance that it might not work on your device. I am a professional Android developer, however, so I hope it will only break in edge cases, and work for most of you.
 
+* If the clock ever gets stuck, tapping on it re-initialises the update process.
+* If tapping on the clock does not help, re-add it. All your settings will remain intact.
+* If the widget shows "This should not happen" the update process did not start, and tapping on it will not work. If re-adding it won't solve the problem, contact me (see below).
 
+## Contact
+
+Contact me [on facebook](https://www.facebook.com/Thrakbad) or [via mail](mailto:thorsten.schillo@googlemail.com), or [create an issue on github](https://github.com/Thrakbad/Thrakbad.github.io/issues).
