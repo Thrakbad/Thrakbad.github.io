@@ -38,7 +38,11 @@ You can enter a time offset (positive or negative) in case the game starts early
 
 ## Security
 
+![Screenshot of the launcher](locked.jpg)
+
 The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens.
+
+![Screenshot of the launcher](password.jpg)
 
 When the launcher is locked, you need to unlock it before you can start using it again. To do that, press the UNLOCK button below the clock. You will then be directed to the password screen, where you can enter your password. **Entering the password for the first time will set it for the game, so make sure to enter your character password from your character description.**
 
@@ -48,11 +52,17 @@ The core of the launcher is a personal log for the events you encounter during t
 
 Log entries can not be edited once they are saved. This is partly because it saved me the time to build that functionality, but mostly so you can't easily delete incriminating information. You can delete log entries. However, nothing is truly lost in a world of advanced tech, so I decided to at least show that a log entry was originally there. It is play to lose after all, and having a bunch of deleted log entries from a suspicious time, is a great way to get us into trouble. And who knows, maybe there are even some ways to partially restore them? I explain this in game by every device being connected to a huge network, where it might take days to purge an entry from all running nodes and backups.
 
+![Screenshot of the launcher](entry_removed.jpg)
+
 You can create log entries by typing them (or using the very funny speech-to-text function), by recording audio, or by taking a picture with your device camera. All methods for creating a log entry are available from the launcher or from the journal listing the log entries.
+
+![Screenshot of the launcher](voice_recording.jpg)
 
 To start an audio recording, simply tap the microphone button. A red indicator will be shown when the recorder is running. Tapping the button again will stop and save the recording. Recording audio even works when the screen is off or the launcher is locked, so you can easily record in secret. **Recording prevents your device from going to sleep, so it can be a drain on the battery.**
 
 ## Regulations
+
+![Screenshot of the launcher](regulations.jpg)
 
 On Icarus, there are a lot of regulations and you might not have learned every detail of it. That's why you can look them up in the regulations section. After installation, the app does not have any regulations to show, but you might want to put at least the company bylaw there. To create a regulation that will be shown in the app, follow this procedure:
 
@@ -77,6 +87,8 @@ Every employee is entitled to have personal free time every shift. Beside workin
 Since I am in the mining team, I already created custom steps for the miners. If you are a miner, please just use those. I posted them in the mining Facebook group. If you are not on Facebook, contact me (below) and I'll send them to you personally. I don't want to put them on display for anyone to see without the permission of the Icarus team.
 
 ## Apps
+
+![Screenshot of the launcher](apps.jpg)
 
 Of course you might want to use your device in any way I can't really forsee during the game, so the launcher of course also allows you to access your apps as usual. Apps will be shown in a simple list, without Icons. That is because most of them don't look very sci-fi.
 
