@@ -2,6 +2,8 @@ You can find the description for the Icarus Clock Widget [here](clock.md)
 
 # Icarus Launcher
 
+![Screenshot of the launcher](launcher.jpg)
+
 Icarus Launcher is a custom launcher for Android phones built solely for the LARP Icarus by Terre Spezzate. It won't be useful for anyone outside the game. It replaces the launcher (= home screen) of your Android phone and offers functionality you might find useful during the game. It also alters the look and feel of your device to allow for a maximum of immersion.
 
 It offers the following features:
@@ -21,7 +23,7 @@ Install the app and start it by pressing the home button. You should set it as t
 
 On the first launch, the app will show you the configuration screen. This will only be shown once, so do not miss it. If you need to see it another time, you need to clear the app data.
 
-If you are running Android 6 or later: if you want to use the audio recording features, please go to the app settings from here and click on permissions in the following screen. Enable the record audio permission, and go back to the configuration screen with the back button. The storage permission is required to read regulations and blocked apps from your download folder (see the sections for more information).
+**If you are running Android 6 or later:** if you want to use the audio recording features, please go to the app settings from here and click on permissions in the following screen. Enable the record audio permission, and go back to the configuration screen with the back button. The storage permission is required to read regulations and blocked apps from your download folder (see the sections for more information).
 
 Once you are done on the configuration screen, leave it via the back button. You will see the Launcher home screen.
 
@@ -38,17 +40,17 @@ You can enter a time offset (positive or negative) in case the game starts early
 
 The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens.
 
-When the launcher is locked, you need to unlock it before you can start using it again. To do that, press the UNLOCK button below the clock. You will then be directed to the password screen, where you can enter your password. Entering the password for the first time will set it for the game, so make sure to enter your character password from your character description.
+When the launcher is locked, you need to unlock it before you can start using it again. To do that, press the UNLOCK button below the clock. You will then be directed to the password screen, where you can enter your password. **Entering the password for the first time will set it for the game, so make sure to enter your character password from your character description.**
 
 ## Personal log
 
 The core of the launcher is a personal log for the events you encounter during the game. I didn't just want to create a notebook, so I added a few twists to this part, that might enable a bit of nice play, if a character password is breached.
 
-Log entries can not be edited once they are saved. This is partly because it saved me the time to build that functionality, but mostly so you can't easily delete incriminating information. You can delete log entries. However, nothing is truly lost in a world of advanced tech, so I decided to at least show that a log entry was originally there. It is play to lose after all, and having a bunch of deleted log entries from a suspicious time, is a great way to get us into trouble. And who knows, maybe there are even some ways to restore them. I explain this in game by every device being connected to a huge network, where it might takr days to purge an entry from all running nodes and backups.
+Log entries can not be edited once they are saved. This is partly because it saved me the time to build that functionality, but mostly so you can't easily delete incriminating information. You can delete log entries. However, nothing is truly lost in a world of advanced tech, so I decided to at least show that a log entry was originally there. It is play to lose after all, and having a bunch of deleted log entries from a suspicious time, is a great way to get us into trouble. And who knows, maybe there are even some ways to partially restore them? I explain this in game by every device being connected to a huge network, where it might take days to purge an entry from all running nodes and backups.
 
 You can create log entries by typing them (or using the very funny speech-to-text function), by recording audio, or by taking a picture with your device camera. All methods for creating a log entry are available from the launcher or from the journal listing the log entries.
 
-To start an audio recording, simply tap the microphone button. A red indicator will be shown when the recorder is running. Tapping the button again will stop and save the recording. Recording audio even works when the screen is off or the launcher is locked, so you can easily record in secret. Recording prevents your device from going to sleep, so it can be a drain on the battery.
+To start an audio recording, simply tap the microphone button. A red indicator will be shown when the recorder is running. Tapping the button again will stop and save the recording. Recording audio even works when the screen is off or the launcher is locked, so you can easily record in secret. **Recording prevents your device from going to sleep, so it can be a drain on the battery.**
 
 ## Regulations
 
@@ -60,6 +62,17 @@ On Icarus, there are a lot of regulations and you might not have learned every d
 The first line of the file marks the category the regulation belongs to. This will be used for sorting them. The second line is the title or caption. All following lines are the content that will be displayed.
 
 To give you an example, here is the file for a company bylaw section.
+
+```
+Company Bylaw
+1e - Compulsory activities
+Every employee is entitled to have personal free time every shift. Beside working hours there are other compulsory activities that everyone on Icarus Station must attend, during each and every shift:
+
+- Physical training in the Leisure Area
+- Meals
+- Routine medical checks in Sick Bay
+- Socialization time in the Leisure Area
+```
 
 Since I am in the mining team, I already created custom steps for the miners. If you are a miner, please just use those. I posted them in the mining Facebook group. If you are not on Facebook, contact me (below) and I'll send them to you personally. I don't want to put them on display for anyone to see without the permission of the Icarus team.
 
@@ -73,6 +86,36 @@ Hiding apps. Since it is not very canon to have the Google Play Store available 
 * enter the names of every app you wish to hide in an individual line.
 
 My file looks like this, for example.
+
+```
+Chrome
+Play Store
+Drive
+Camera
+Play Newsstand
+Photos
+Calendar
+Contacts
+Clock
+Phone
+Gmail
+Play Music
+Play Movies & TV
+Youtube
+Downloads
+FM Radio
+Play Books
+Google Handwriting Input
+Maps
+Duo
+Wallpapers
+Google
+Keep
+Play Games
+Support
+```
+
+**WARNING: if you exclude the Settings app, you might not be able to remove the launcher easily after the game. So it is best to leave it in there.**
 
 ## Contact
 

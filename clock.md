@@ -2,7 +2,7 @@
 
 This is a description for my app "Icarus Watch", which can be found in the [Google Play Store](https://play.google.com/store/apps/details?id=at.thrakbad.icaruswatch) or as an [APK download](https://goo.gl/32YtsJ).
 
-![Screenshot of the clock widget](https://thrakbad.github.io/feature.png)
+![Screenshot of the clock widget](feature.png)
 
 It is a custom widget for Android devices solely created for the Sci-Fi LARP [ICARUS](http://www.grv.it/icarus/) by [Terre Spezzate](http://www.grv.it/en). Players bringing their Android devices to the game can use this widget to see the time in the Icarus station 14-hour system instead of the 24h earth system. The clock is running on the Icarus system, so that it will hit D15 4:00 when the game starts on Friday the 10th/17th at 22h.
 
