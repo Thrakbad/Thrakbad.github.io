@@ -96,7 +96,7 @@ Of course you might want to use your device in any way I can't really forsee dur
 
 Hiding apps. Since it is not very canon to have the Google Play Store available on a device, you can create a list of blocked apps, that will not be shown by the launcher. To do so
 
-* create a file apps.txt in your devices download folder. This is the folder where Android usually stores files you download from the internet.
+* create a file blocked.txt in your devices download folder. This is the folder where Android usually stores files you download from the internet.
 * enter the names of every app you wish to hide in an individual line.
 
 My file looks like this, for example.
