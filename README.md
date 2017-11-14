@@ -2,6 +2,8 @@ You can find the description for the Icarus Clock Widget [here](clock.md)
 
 # Icarus Launcher
 
+This is a description for my app "Icarus Launcher", which can be found in the [Google Play Store](https://play.google.com/store/apps/details?id=at.thrakbad.icaruslauncher) or as an [APK download](https://goo.gl/LXag8Q). It should work for Android devices with Android API level 4.0.3 or higher.
+
 ![Screenshot of the launcher](launcher.jpg)
 
 Icarus Launcher is a custom launcher for Android phones built solely for the LARP Icarus by Terre Spezzate. It won't be useful for anyone outside the game. It replaces the launcher (= home screen) of your Android phone and offers functionality you might find useful during the game. It also alters the look and feel of your device to allow for a maximum of immersion.
@@ -128,6 +130,10 @@ Support
 ```
 
 **WARNING: if you exclude the Settings app, you might not be able to remove the launcher easily after the game. So it is best to leave it in there.**
+
+## Privacy
+
+Google requires me to include a privacy policy. So here it goes. This app can record audio and images, and can read from your external storage. All recordings will stay on the device, and will be removed once tha pp is uninstalled. The access to your external storage is required if you want to add your own list of blocked apps or regulations. Since the app has no internet permission, your data can not be secretly transmitted anywhere. Also all of it will be fictional anyways, so what would I do with that? :-)
 
 ## Contact
 

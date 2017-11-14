@@ -1,6 +1,8 @@
+You can find the description for the Icarus Launcher [here](README.md)
+
 # Icarus Clock Widget
 
-This is a description for my app "Icarus Watch", which can be found in the [Google Play Store](https://play.google.com/store/apps/details?id=at.thrakbad.icaruswatch) or as an [APK download](https://goo.gl/32YtsJ).
+This is a description for my app "Icarus Watch", which can be found in the [Google Play Store](https://play.google.com/store/apps/details?id=at.thrakbad.icaruswatch) or as an [APK download](https://goo.gl/32YtsJ). It should work for Android devices with Android API level 4.0.3 or higher.
 
 ![Screenshot of the clock widget](feature.png)
 
