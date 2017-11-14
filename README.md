@@ -14,7 +14,7 @@ It offers the following features:
 * a customizable set of station regulations for easy lookup during the game
 * access to all apps on your phone through a list stripped of the icons. No need to find a sci-fi icon for your calculator
 * possibility to hide apps you don't want to use
-* all of the above locked with a password, so you can easily use your character password, but can disable the lockscreen of your device entirely
+* all of the above locked with a screenguard, so you can disable the lockscreen of your device entirely
 * fully customizable colour scheme
 * can be locked to all orientations of your device, in case you want to carry it in some crazy configuration
 
@@ -38,15 +38,11 @@ The clock allows you to select your shift. It will then remind you, when it is t
 
 You can enter a time offset (positive or negative) in case the game starts early or late.
 
-## Security
+## Screenguard
 
 ![Screenshot of the launcher](locked.jpg)
 
-The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens.
-
-![Screenshot of the launcher](password.jpg)
-
-When the launcher is locked, you need to unlock it before you can start using it again. To do that, press the UNLOCK button below the clock. You will then be directed to the password screen, where you can enter your password. **Entering the password for the first time will set it for the game, so make sure to enter your character password from your character description.**
+The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens. This lock is simply a screenguard, it will not provide any security for your notes. This is intentional, because it will be difficult enough to steal a device, and doing that might enable cool ingame situations.
 
 ## Personal log
 
@@ -66,27 +62,12 @@ To start an audio recording, simply tap the microphone button. A red indicator w
 
 ![Screenshot of the launcher](regulations.jpg)
 
-On Icarus, there are a lot of regulations and you might not have learned every detail of it. That's why you can look them up in the regulations section. After installation, the app does not have any regulations to show, but you might want to put at least the company bylaw there. To create a regulation that will be shown in the app, follow this procedure:
+On Icarus, there are a lot of regulations and you might not have learned every detail of it. That's why you can look them up in the regulations section. The app comes preloaded with the *Company Bylaw*, the design document (disguised as *Safety Regulations*) and all work *Procedure Manuals*. However, you can also put your own `.pdf` files in there, if you need anything else. To do that:
 
-* create a folder "regulations" within your Android download folder. This is the folder where Android will store downloaded files by default.
-* put a txt file in the folder for each section of the regulations you want to use.
-
-The first line of the file marks the category the regulation belongs to. This will be used for sorting them. The second line is the title or caption. All following lines are the content that will be displayed.
-
-To give you an example, here is the file for a company bylaw section.
-
-```
-Company Bylaw
-1e - Compulsory activities
-Every employee is entitled to have personal free time every shift. Beside working hours there are other compulsory activities that everyone on Icarus Station must attend, during each and every shift:
-
-- Physical training in the Leisure Area
-- Meals
-- Routine medical checks in Sick Bay
-- Socialization time in the Leisure Area
-```
-
-Since I am in the mining team, I already created custom steps for the miners. If you are a miner, please just use those. I posted them in the mining Facebook group. If you are not on Facebook, contact me (below) and I'll send them to you personally. I don't want to put them on display for anyone to see without the permission of the Icarus team.
+* create a folder `regulations` within your Android download folder. This is the folder where Android will store downloaded files by default.
+* put your `.pdf` file in the folder
+* create a `.txt` file with the name of the category you want your document to be in. E.g. documents in the *Procedure Manuals* category are listed in the file `Procedure Manuals.txt`
+* enter the name of the `.pdf` file without the `.pdf` extension in a line in the created `txt` file. E.g. the file `BYLAW of Icarus Station.pdf` needs to be listed as *BYLAW of Icarus Station*
 
 ## Apps
 
@@ -96,7 +77,7 @@ Of course you might want to use your device in any way I can't really forsee dur
 
 Hiding apps. Since it is not very canon to have the Google Play Store available on a device, you can create a list of blocked apps, that will not be shown by the launcher. To do so
 
-* create a file blocked.txt in your devices download folder. This is the folder where Android usually stores files you download from the internet.
+* create a file `blocked.txt` in your devices download folder. This is the folder where Android usually stores files you download from the internet.
 * enter the names of every app you wish to hide in an individual line.
 
 My file looks like this, for example.
