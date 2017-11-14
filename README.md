@@ -14,7 +14,7 @@ It offers the following features:
 * a customizable set of station regulations for easy lookup during the game
 * access to all apps on your phone through a list stripped of the icons. No need to find a sci-fi icon for your calculator
 * possibility to hide apps you don't want to use
-* all of the above locked with a screenguard, so you can disable the lockscreen of your device entirely
+* all of the above locked with a keyguard, so you can disable the lockscreen of your device entirely
 * customizable colour scheme
 * can be locked to all orientations of your device, in case you want to carry it in some crazy configuration
 
@@ -36,11 +36,11 @@ Clock colours will be used by the rest of the launcher as well, to maintain a co
 
 The clock allows you to select your shift. It will then remind you, when it is time for you to sleep.
 
-## Screenguard
+## Keyguard
 
 ![Screenshot of the launcher](locked.jpg)
 
-The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens. This lock is simply a screenguard, it will not provide any security for your notes. This is intentional, because it will be difficult enough to steal a device, and doing that might enable cool ingame situations.
+The Launcher automatically locks itself once the screen is turned off. You can lock it manually by pressing the lock icon on the home screen or long-pressing the back/lock icon on the other screens. This lock is simply a keyguard, it will not provide any security for your notes. After consulting with Terre Spezzate, this is intentional. It will be difficult enough to steal a device, and doing that might enable cool ingame situations.
 
 ## Personal log
 
