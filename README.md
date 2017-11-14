@@ -15,7 +15,7 @@ It offers the following features:
 * access to all apps on your phone through a list stripped of the icons. No need to find a sci-fi icon for your calculator
 * possibility to hide apps you don't want to use
 * all of the above locked with a screenguard, so you can disable the lockscreen of your device entirely
-* fully customizable colour scheme
+* customizable colour scheme
 * can be locked to all orientations of your device, in case you want to carry it in some crazy configuration
 
 I built this thing in a very short time, so it is possible there are bugs and it might not run on your device.
@@ -35,8 +35,6 @@ The clock automatically runs on the scheduled time for the Icarus International 
 Clock colours will be used by the rest of the launcher as well, to maintain a coherent UI, so feel free to customise this.
 
 The clock allows you to select your shift. It will then remind you, when it is time for you to sleep.
-
-You can enter a time offset (positive or negative) in case the game starts early or late.
 
 ## Screenguard
 
