@@ -112,7 +112,7 @@ Support
 
 ## Privacy
 
-Google requires me to include a privacy policy. So here it goes. This app can record audio and images, and can read from your external storage. All recordings will stay on the device, and will be removed once tha pp is uninstalled. The access to your external storage is required if you want to add your own list of blocked apps or regulations. Since the app has no internet permission, your data can not be secretly transmitted anywhere. Also all of it will be fictional anyways, so what would I do with that? :-)
+Google requires me to include a privacy policy. So here it goes. This app can record audio and images, and can read from your external storage. All recordings will stay on the device, and will be removed once the app is uninstalled. The access to your external storage is required if you want to add your own list of blocked apps or regulations. Since the app has no internet permission, your data can not be secretly transmitted anywhere. Also all of it will be fictional anyways, so what would I do with that? :-)
 
 ## Contact
 
