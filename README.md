@@ -44,7 +44,7 @@ The Launcher automatically locks itself once the screen is turned off. You can l
 
 ## Personal log
 
-The core of the launcher is a personal log for the events you encounter during the game. I didn't just want to create a notebook, so I added a few twists to this part, that might enable a bit of nice play, if a character password is breached.
+The core of the launcher is a personal log for the events you encounter during the game. I didn't just want to create a notebook, so I added a few twists to this part, that might enable a bit of nice play.
 
 Log entries can not be edited once they are saved. This is partly because it saved me the time to build that functionality, but mostly so you can't easily delete incriminating information. You can delete log entries. However, nothing is truly lost in a world of advanced tech, so I decided to at least show that a log entry was originally there. It is play to lose after all, and having a bunch of deleted log entries from a suspicious time, is a great way to get us into trouble. And who knows, maybe there are even some ways to partially restore them? I explain this in game by every device being connected to a huge network, where it might take days to purge an entry from all running nodes and backups.
 
