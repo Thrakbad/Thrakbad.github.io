@@ -67,6 +67,10 @@ On Icarus, there are a lot of regulations and you might not have learned every d
 * create a `.txt` file with the name of the category you want your document to be in. E.g. documents in the *Procedure Manuals* category are listed in the file `Procedure Manuals.txt`
 * enter the name of the `.pdf` file without the `.pdf` extension in a line in the created `txt` file. E.g. the file `BYLAW of Icarus Station.pdf` needs to be listed as *BYLAW of Icarus Station*
 
+### In case of Crashes
+
+On some test-devices, the internal pdf-renderer did not work as expected and the app just crashed. If that is the case for your device, you will see the launcher again after tapping on an entry. Should that be the case for you, you can fall backto use an external PDF viewer app (e.g. Acrobat Reader). To enable/disable the use of the external reader, simply long-press any one of the regulations entries. A message will appear telling you if the external or internal viewer is enabled. If you need to use the external viewer, you have to install it yourself on your device. If no viewer is installed, you will see a message *no external viewer found* once you try to open a file. The PDF viewer does not have to be in the list of visible apps (see **blocked apps** next section) for this to work.
+
 ## Apps
 
 ![Screenshot of the launcher](apps.jpg)
