@@ -2,6 +2,8 @@ You can find the description for the Icarus Clock Widget [here](clock.md)
 
 # Icarus Launcher
 
+**New Functions added: wallpaper and import of log entries. Make sure to check out the appropriate sections "Wallpaper" and "Importing log entries".**
+
 This is a description for my app "Icarus Launcher", which can be found in the [Google Play Store](https://play.google.com/store/apps/details?id=at.thrakbad.icaruslauncher) or as an [APK download](https://goo.gl/LXag8Q). It should work for Android devices with Android API level 4.0.3 or higher.
 
 ![Screenshot of the launcher](launcher.jpg)
@@ -29,6 +31,10 @@ On the first launch, the app will show you the configuration screen. This will o
 
 Once you are done on the configuration screen, leave it via the back button. You will see the Launcher home screen.
 
+## Wallpaper
+
+The launcher shows the device wallpaper in the background. This even works with live wallpapers. I recommend using a dark wallpaper, that is non-distracting. A galaxy live wallpaper looks amazing.
+
 ## Clock
 The clock automatically runs on the scheduled time for the Icarus International run. It offers a few of customization options. You can access the clock settings by tapping on the top bar in any screen where it is shown.
 
@@ -55,6 +61,19 @@ You can create log entries by typing them (or using the very funny speech-to-tex
 ![Screenshot of the launcher](voice_recording.jpg)
 
 To start an audio recording, simply tap the microphone button. A red indicator will be shown when the recorder is running. Tapping the button again will stop and save the recording. Recording audio even works when the screen is off or the launcher is locked, so you can easily record in secret. **Recording prevents your device from going to sleep, so it can be a drain on the battery.**
+
+### Importing log entries
+
+On a player request I added the functionality to import log entries. To do so, follow these instructions:
+* create a folder `journal` within your Android download folder. This is the folder where Android will store downloaded files by default.
+* create a `.txt` file with the date of the log entry in icarus time in the format `D<day>_hh_mm.txt` (e.g. `D12_05:27.txt`).
+* in the `.txt` file, the first line is the type of the file. Valid types are `TEXT`, `AUDIO`, and `PICTURE`. Make sure to write them in all caps, otherwise it won't work.
+* the remaining lines in the `.txt` file are a description of the content of the log entry.
+  * for `TEXT` entries, all remaining lines will be the text of the entry. Pretty simple.
+  * for `ÀUDIO` and  `PICTURE` entries, only the first line of the content is used. It contains the file name of an audio or picture file also present in the `journal` folder.
+* Once your files are set up, start the launcher and go to the screen showing your journal entries, where your imported entries show up.
+
+**Note: for performance reasons, the entries are stored in a Database. So the `.txt` files you created are deleted after the import to prevent them from bein imported again. I recommend saving the files in a folder on your computer, so you can just copy them to the device again if something goes wrong.**
 
 ## Regulations
 
