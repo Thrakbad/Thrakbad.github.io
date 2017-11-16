@@ -33,7 +33,7 @@ Once you are done on the configuration screen, leave it via the back button. You
 
 ## Wallpaper
 
-The launcher shows the device wallpaper in the background. This even works with live wallpapers. I recommend using a dark wallpaper, that is non-distracting. A galaxy live wallpaper looks amazing.
+The launcher shows the device wallpaper in the background. This even works with live wallpapers. I recommend using a dark wallpaper, that is non-distracting. A galaxy live wallpaper looks amazing. If you want the simple black background, please just set a black device wallpaper for the game.
 
 ## Clock
 The clock automatically runs on the scheduled time for the Icarus International run. It offers a few of customization options. You can access the clock settings by tapping on the top bar in any screen where it is shown.
@@ -76,6 +76,7 @@ On a player request I added the functionality to import log entries. To do so, f
 *Note: for performance reasons, the entries are stored in a Database. So the `.txt` files you created are deleted after the import to prevent them from bein imported again. I recommend saving the files in a folder on your computer, so you can just copy them to the device again if something goes wrong.*
 
 **Examples for files**
+
 Text record
 ```
 TEXT
