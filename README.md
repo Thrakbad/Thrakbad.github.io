@@ -73,7 +73,28 @@ On a player request I added the functionality to import log entries. To do so, f
   * for `ÀUDIO` and  `PICTURE` entries, only the first line of the content is used. It contains the file name of an audio or picture file also present in the `journal` folder.
 * Once your files are set up, start the launcher and go to the screen showing your journal entries, where your imported entries show up.
 
-**Note: for performance reasons, the entries are stored in a Database. So the `.txt` files you created are deleted after the import to prevent them from bein imported again. I recommend saving the files in a folder on your computer, so you can just copy them to the device again if something goes wrong.**
+*Note: for performance reasons, the entries are stored in a Database. So the `.txt` files you created are deleted after the import to prevent them from bein imported again. I recommend saving the files in a folder on your computer, so you can just copy them to the device again if something goes wrong.*
+
+**Examples for files**
+Text record
+```
+TEXT
+Lorem Ipsum
+dolor sit
+amet...
+```
+
+Audio record
+```
+AUDIO
+my_custom_audio_file.mp3
+```
+
+Picture record
+```
+PICTURE
+my_imported_picture.jpg
+```
 
 ## Regulations
 
